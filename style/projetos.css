@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://db.onlinewebfonts.com/c/51296ff9eb1e16185eb6a1000de5d345?family=Gotham");
+
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+}
+
+body {
+    background-color: rgb(150, 0, 255);
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+li {
+    text-align: center;
+    font-family: sans-serif;
+    list-style: square;
+    margin-left: 500px;
+}
+
+nav a {
+    float: initial;
+    font-family: 'Gotham';
+    font-size: 19px;
+    color: rgb(186, 0, 186);
+}
+
+.contatos {
+    word-spacing: 10px;
+    float: initial;
+    font-family: 'Gotham';
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+}
+
+.foto1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.foto2 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.foto3, .foto4, .foto5 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    margin: auto;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 500% ;
+}
+
+h2 {
+    margin: auto;
+    padding: 5px;
+    font-family: 'Gotham';
+    color: whitesmoke;
+}
+
+
+    /*width: 100vw;
+    height: 100vh;
+    background: url('../images/fundo.jpg');
+    background-size: cover;*/ 
+
+ul.goto {
+    align-items: center;
+}
+
+ul.redir {
+    align-items: center;
+}
+
+ul.logo {
+    align-items: center;
+}
+
+ul.links {
+    align-items: center;
+}
+
+.rodape {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Gotham';
+    color: rgb(150, 0, 255);
+    background-color: white;
+}
